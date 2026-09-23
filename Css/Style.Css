@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+body {
+    background-color: #f5f1e8;
+    margin: 0;
+}
+
+header {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+header h1{  
+    margin: 0;
+}
+
+main h2{
+    margin-top: 0;
+    grid-column: 1 / -1;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+
